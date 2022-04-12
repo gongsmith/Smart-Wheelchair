@@ -7,9 +7,9 @@
 # Hardware Requirements
 # 
 # Credits
-[Xun Gong](https://github.com/gongsmith)
+·[Xun Gong](https://github.com/gongsmith)
 
-[Yuyang Wan](https://github.com/jkZoidberg)
+·[Yuyang Wan](https://github.com/jkZoidberg)
 
-[Hanwei Liang](https://github.com/BrippoLiang)
+·[Hanwei Liang](https://github.com/BrippoLiang)
 # Social Media
