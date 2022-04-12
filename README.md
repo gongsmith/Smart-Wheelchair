@@ -11,4 +11,4 @@
 * [Yuyang Wan](https://github.com/jkZoidberg)  
 * [Hanwei Liang](https://github.com/BrippoLiang)
 # Social Media
-
+![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")	
