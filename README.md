@@ -1,2 +1,2 @@
-# Smart-Wheelchair Team 32
-hii
+# Smart-Wheelchair 
+# Introduction
