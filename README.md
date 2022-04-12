@@ -11,5 +11,4 @@
 * [Yuyang Wan](https://github.com/jkZoidberg)  
 * [Hanwei Liang](https://github.com/BrippoLiang)
 # Social Media
-![YouTube](https://www.youtube.com/img/bdlogo.gif)
-[![weibo-logo]](http://weibo.com/linpiaochen)	
+
