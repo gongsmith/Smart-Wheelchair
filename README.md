@@ -15,6 +15,7 @@ Design of a smart wheelchair for the elderly with the STM32 microcontroller as t
 # Installation
 
 ![image](https://user-images.githubusercontent.com/93221038/163683544-9c90d9f1-7bde-4820-8a4e-ae64ae7a9bcd.png)
+![image](https://user-images.githubusercontent.com/93221038/163683766-bf6e5b4c-201b-4f43-98e7-d4c6168ecf35.png)
 ![image](https://user-images.githubusercontent.com/93221038/163683712-fc8d5e89-1047-49b7-a9df-d292de64a237.png)
 
 
