@@ -28,7 +28,7 @@ Design of a smart wheelchair for the elderly with the STM32 microcontroller as t
 
 
 # Hardware Requirements
-    ARM Microcontrollers-MCUs：STM32F405RGT6
+ARM Microcontrollers-MCUs：STM32F405RGT6
     Download interface：A2541HWV-5P  
     1.77" TFT LCD display 14PIN  
     1.77" TFT LCD display 20PIN  
