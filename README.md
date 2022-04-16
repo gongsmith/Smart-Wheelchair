@@ -13,7 +13,10 @@
 # Aims
 Design of a smart wheelchair for the elderly with the STM32 microcontroller as the core. Implementing the functions of monitoring heart rate, body temperature, GPS positioning, speed control and display the data on an LCD screen. If the monitored data exceeds the threshold value this data is immediately sent to the guardian's mobile phone.
 # Installation
+
 ![image](https://user-images.githubusercontent.com/93221038/163683544-9c90d9f1-7bde-4820-8a4e-ae64ae7a9bcd.png)
+![image](https://user-images.githubusercontent.com/93221038/163683712-fc8d5e89-1047-49b7-a9df-d292de64a237.png)
+
 
 # Hardware Requirements
     ARM Microcontrollers-MCUs：STM32F405RGT6
