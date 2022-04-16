@@ -2,7 +2,8 @@
 # Introductions
 **Intelligent wheelchair control system design based on embedded microcontroller**  
 This project is dedicated to the development of an intelligent wheelchair. The modular design is divided into a speed limit module, a health monitoring module, an emergency call module, a GPS positioning module and a power supply module to supply power to the system. 
-**Technical requirements:**  Power supply module:Power supply by battery to realize the functions of the intelligent wheelchair.  
+**Technical requirements:**  
+**Power supply module:** Power supply by battery to realize the functions of the intelligent wheelchair.  
 **Main control module:** STM32 microcontroller  
 **Health detection module:** Real-time detection of the user's body temperature and heart rate.   
 **GPS positioning module:** can accurately locate the user's position.  
