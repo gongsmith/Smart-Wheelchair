@@ -5,7 +5,7 @@
 #
 #
 # Hardware Requirements
-# 
+STM32F405RGT6
 # Credits
 * [Xun Gong](https://github.com/gongsmith)  
 * [Yuyang Wan](https://github.com/jkZoidberg)  
