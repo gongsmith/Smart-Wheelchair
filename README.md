@@ -15,7 +15,19 @@
 #
 # Hardware Requirements
     ARM Microcontrollers-MCUs：STM32F405RGT6
-    Download interface：A2541HWV-5P
+    A2541HWV-5P
+    XL1509-5.0E
+    A2541HWV-2P
+    AMS1117-3.3
+    A2541HWV-4P
+    A2541HWV-6P
+    MMBTA05
+    MMBT3904
+    MMBT3904LT1G
+    WH160-1-B102(B1K)
+    KEY_SKRPACE010
+    1.77" TFT LCD display 14PIN
+    1.77" TFT LCD display 20PIN
     Running light
     PCB(printed circuit board)
 # Credits
