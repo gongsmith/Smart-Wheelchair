@@ -11,6 +11,7 @@
     GSM module: When the user's body condition occurs, it will immediately feedback to the guardian's mobile phone (set the content to send once every few seconds or only once: the elderly body condition, please promptly save the heart rate and body temperature value GPS).
     Speed control module: when the speed exceeds the specified speed (set the key to adjust the threshold), feedback to the microcontroller, the microcontroller control the operation of the motor, to achieve the purpose of emergency brake.
 # Aims
+    Design of a smart wheelchair for the elderly with the STM32 microcontroller as the core. Implementing the functions of monitoring heart rate, body temperature, GPS positioning, speed control and display the data on an LCD screen. If the monitored data exceeds the threshold value this data is immediately sent to the guardian's mobile phone.
 # Installation
 #
 # Hardware Requirements
