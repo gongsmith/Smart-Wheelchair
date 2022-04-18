@@ -24,18 +24,20 @@ Design of a smart wheelchair for the elderly with the STM32 microcontroller as t
  
 ![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png). 
 
+
+
 <p align="center">
 **Chip pinout diagram**
  </p>
  
 ![image](https://user-images.githubusercontent.com/93221038/163683766-bf6e5b4c-201b-4f43-98e7-d4c6168ecf35.png). 
 
+
+
 <p align="center">
 **PCB board drawing**
 </p>        
-        
-        
-        
+             
  <div align="center"> 
 <img src="https://user-images.githubusercontent.com/93221038/163684213-78e1b1f5-92fb-4b85-a4a0-5a3d691a925f.png">
 </div>
