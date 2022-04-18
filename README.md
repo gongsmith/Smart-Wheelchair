@@ -54,5 +54,4 @@ ARM Microcontrollers-MCUs：STM32F405RGT6
 * [Yuyang Wan](https://github.com/jkZoidberg)  
 * [Hanwei Liang](https://github.com/BrippoLiang)
 # Social Media
-<img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/youtube-logo-164319198616x9.webp" width="200" height="100" alt="youtube"/><br/>
-<img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/77741650300372_.pic.jpg" width="200" height="100" alt="tiktok"/><br/>
+<img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/youtube-logo-164319198616x9.webp" width="200" height="100" alt="youtube"/><br/><img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/77741650300372_.pic.jpg" width="200" height="100" alt="tiktok"/><br/>
