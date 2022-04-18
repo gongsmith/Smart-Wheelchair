@@ -18,7 +18,7 @@ This project is dedicated to the development of an intelligent wheelchair. The m
 Design of a smart wheelchair for the elderly with the STM32 microcontroller as the core. Implementing the functions of monitoring heart rate, body temperature, GPS positioning, speed control and display the data on an LCD screen. If the monitored data exceeds the threshold value this data is immediately sent to the guardian's mobile phone.
 # Installation
 <p align="center">
-_Digital circuit diagramming_
+Digital circuit diagramming
 </p>
  
  
