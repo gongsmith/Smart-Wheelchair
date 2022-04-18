@@ -200,7 +200,7 @@ uint8_t MACHINE_SET(void)
       fRefresh = 0;
       
       PageCode_machine_set = 0;
-      /* 排列主栏目 */
+      /* Arrange main column */
       Array_Main_Column(&s_tMachine_settxt[0][0],22,4);
       
       /* set font parameters */
