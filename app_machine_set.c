@@ -1,16 +1,10 @@
 /**
   ******************************************************************************
   * @file    app_machine_set.c
-  * @author  COUNS Team
+  * @author  Team 32
   * @version V1.0
-  * @date    25-April-2019
+  * @date    18-04-2022
   * @brief   app_machine_set files
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; COPYRIGHT 2018 COUNS</center></h2>
-  *
-  *
   ******************************************************************************
   */
   
@@ -31,7 +25,7 @@
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
-/* 栏目文字 */
+/* section text */
 const char s_tMachine_settxt[][22] = 
 {
   {"01.Backlight settings"},
@@ -287,5 +281,3 @@ uint8_t MACHINE_SET(void)
     }
   }
 }
-
-/****** Copyright (C),2001-2017 COUNS 高优 Inc.2018 COUNS Team ****** END OF FILE ******/
