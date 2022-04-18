@@ -19,7 +19,6 @@ Design of a smart wheelchair for the elderly with the STM32 microcontroller as t
 # Installation
 <p align="center">
 **Digital circuit diagramming**
- 
 </p>
  
  
