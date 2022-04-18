@@ -484,5 +484,3 @@ __task void AppTask_NetworkData(void)
     os_dly_wait(2000);
   }
 }
-
-/************************ (C) COPYRIGHT 2018 COUNS Team *****END OF FILE****/
