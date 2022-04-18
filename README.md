@@ -1,4 +1,4 @@
-# <p align="Smart-Wheelchair"></p>
+   # Smart-Wheelchair
 # Introductions
 ## Intelligent wheelchair control system design based on embedded MCU  
 This project is dedicated to the development of an intelligent wheelchair. The modular design is divided into a speed limit module, a health monitoring module, an emergency call module, a GPS positioning module and a power supply module to supply power to the system.   
