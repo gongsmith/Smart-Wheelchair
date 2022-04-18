@@ -22,7 +22,7 @@ Digital circuit diagramming
 </p>
  
  
-![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png). 
+[![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png)](https://www.youtube.com/watch?v=4pA6-YC3y7Y)
 
 
 
