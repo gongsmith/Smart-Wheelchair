@@ -73,7 +73,7 @@ static void DIS_Page(uint8_t mode)
     tFont.Space      = 0;         /* Text spacing, in pixels*/
   }
   
-  LCD_DispStrEx_NOmut(80-2-(6*3), 18+2,   "¡æ",&tFont,0,0);//009.2  099.2  100.2
+  LCD_DispStrEx_NOmut(80-2-(6*3), 18+2,   "â„ƒ",&tFont,0,0);//009.2  099.2  100.2
   LCD_DispStrEx_NOmut(160-2-(6*3),18+2,   "bpm",&tFont,0,0);
   
   LCD_DispStrEx_NOmut(80-2-(6*3), 18+45+2,"lat",&tFont,0,0);
@@ -170,7 +170,7 @@ uint8_t MainInterface(void)
     tFont.BackColor  = CL_BLUE;   /* Text background color */
     tFont.Space      = 1;         /* Text spacing, in pixels*/
   }
-  LCD_DispStrEx_NOmut(20,2,"ÖÇÄÜÂÖÒÎ¿ØÖÆÏµÍ³", &tFont,120,ALIGN_CENTER);
+  LCD_DispStrEx_NOmut(20,2,"æ™ºèƒ½è½®æ¤…æ§åˆ¶ç³»ç»Ÿ", &tFont,120,ALIGN_CENTER);
   
   /* Shows the base map and crosses and units */
   DIS_Page(0);
@@ -219,7 +219,7 @@ uint8_t MainInterface(void)
             tFont.BackColor  = CL_MASK;   /* Text background color */
             tFont.Space      = 0;         /* Text spacing, in pixels*/
           }
-          DispLabelRound(0, 110,16,160,CL_BLUE,"ÎÂ¶È¸ßÓÚãĞÖµ±¨¾¯",&tFont);
+          DispLabelRound(0, 110,16,160,CL_BLUE,"æ¸©åº¦é«˜äºé˜ˆå€¼æŠ¥è­¦",&tFont);
         }
         else
         {
@@ -250,7 +250,7 @@ uint8_t MainInterface(void)
             tFont.BackColor  = CL_MASK;   /* Text background color */
             tFont.Space      = 0;         /* Text spacing, in pixels*/
           }
-          DispLabelRound(0, 110,16,160,CL_BLUE,"ĞÄÂÊ¸ßÓÚãĞÖµ±¨¾¯",&tFont);
+          DispLabelRound(0, 110,16,160,CL_BLUE,"å¿ƒç‡é«˜äºé˜ˆå€¼æŠ¥è­¦",&tFont);
         }
         else
         {
@@ -307,42 +307,42 @@ uint8_t MainInterface(void)
       switch (ucKeyCode)
       {
         case KEY_DOWN_K1:        /* K1 Key press */
-          printf_Mainfacedebug("K1¼ü°´ÏÂ, LED1µãÁÁ\r\n");
+          printf_Mainfacedebug("K1é”®æŒ‰ä¸‹, LED1ç‚¹äº®\r\n");
           break;
         
         case KEY_UP_K1:          /* K1 Key pop-up */
-          printf_Mainfacedebug("K1¼üµ¯Æğ, LED1Ï¨Ãğ\r\n");
+          printf_Mainfacedebug("K1é”®å¼¹èµ·, LED1ç†„ç­\r\n");
           break;
         
         case KEY_LONG_K1:        /* K1 Key hold down */
-          printf_Mainfacedebug("K1¼ü³¤°´\r\n");
+          printf_Mainfacedebug("K1é”®é•¿æŒ‰\r\n");
           
           /* Enter the Setting screen */
           return MS_MACHINE_SET;
           break;
         
         case KEY_DOWN_K2:        /* K2 Key press */
-          printf_Mainfacedebug("K2¼ü°´ÏÂ, LED2µãÁÁ\r\n");
+          printf_Mainfacedebug("K2é”®æŒ‰ä¸‹, LED2ç‚¹äº®\r\n");
           break;
         
         case KEY_UP_K2:          /* K2 Key pop-up */
-          printf_Mainfacedebug("K2¼üµ¯Æğ, LED2Ï¨Ãğ\r\n");
+          printf_Mainfacedebug("K2é”®å¼¹èµ·, LED2ç†„ç­\r\n");
           break;
         
         case KEY_LONG_K2:        /* K2 Key hold down */
-          printf_Mainfacedebug("K2¼ü³¤°´\r\n");
+          printf_Mainfacedebug("K2é”®é•¿æŒ‰\r\n");
           break;
         
         case KEY_DOWN_K3:        /* K3 Key press */
-          printf_Mainfacedebug("K3¼ü°´ÏÂ, LED3µãÁÁ\r\n");
+          printf_Mainfacedebug("K3é”®æŒ‰ä¸‹, LED3ç‚¹äº®\r\n");
           break;
         
         case KEY_UP_K3:          /* K3 Key pop-up */
-          printf_Mainfacedebug("K3¼üµ¯Æğ, LED3Ï¨Ãğ\r\n");
+          printf_Mainfacedebug("K3é”®å¼¹èµ·, LED3ç†„ç­\r\n");
           break;
         
         case KEY_LONG_K3:        /* K3 Key hold down */
-          printf_Mainfacedebug("K3¼ü³¤°´\r\n");
+          printf_Mainfacedebug("K3é”®é•¿æŒ‰\r\n");
           
           /* Simulated abnormal heart rate */
           xl_count = g_tParam.Heart_rate_threshold + rand()%10;
