@@ -49,6 +49,18 @@ ARM Microcontrollers-MCUs：STM32F405RGT6
     1.77" TFT LCD display 20PIN  
     Running light  
     PCB(printed circuit board)
+    
+    
+# Code Description
+Main Functions--main.c   
+Underlying drivers--bsp.c  
+Parameter storage--app_System_Paramet  
+LCD display driver--app_tft_lcd.c  
+LCD display main interface--app_main_interface.c  
+LCD display setup interface--app_machine_set.c  
+STM32 Library Files--STM32 Library Files  
+Operating system files--Operating system files  
+
 # Credits
 * [Xun Gong](https://github.com/gongsmith)  
 * [Yuyang Wan](https://github.com/jkZoidberg)  
