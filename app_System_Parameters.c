@@ -182,4 +182,4 @@ void SaveParam(const uint8_t dly)
   }
 }
 
-/****** Copyright (C),2001-2017 COUNS 高优 Inc.2018 COUNS Team ****** END OF FILE ******/
+
