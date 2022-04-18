@@ -36,9 +36,9 @@ Design of a smart wheelchair for the elderly with the STM32 microcontroller as t
         
         
         
-        
+ <div align=center>       
 ![image](https://user-images.githubusercontent.com/93221038/163684213-78e1b1f5-92fb-4b85-a4a0-5a3d691a925f.png)
-
+</div>
 
 # Hardware Requirements
 ARM Microcontrollers-MCUs：STM32F405RGT6  
