@@ -227,7 +227,7 @@ __weak void os_tick_irqack (void) {
 
 
 /*--------------------------- rt_systick ------------------------------------*/
-/* 串口接收启动标志 */
+/* 麓庐驴脷陆脫脢脮脝么露炉卤锚脰戮 */
 extern volatile U8 USART1RUN_Flag;
 extern volatile U8 USART4RUN_Flag;
 extern volatile U8 USART6RUN_Flag;
