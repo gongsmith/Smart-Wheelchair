@@ -22,7 +22,7 @@ Digital circuit diagramming
 </p>
  
  
-[![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png)](https://www.youtube.com/watch?v=4pA6-YC3y7Y)
+![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png)
 
 
 
@@ -57,7 +57,8 @@ ARM Microcontrollers-MCUs：STM32F405RGT6
 
  <div align="center"> 
 
-<img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/youtube-logo-164319198616x9.webp" width="200" height="100" alt="youtube"/><br/><img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/77741650300372_.pic.jpg" width="200" height="100" alt="tiktok"/><br/>
+[<img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/youtube-logo-164319198616x9.webp" width="200" height="100" alt="youtube"/><br/>](https://www.youtube.com/watch?v=4pA6-YC3y7Y)
+ <img src="https://github.com/gongsmith/Xun-gong-storage/blob/main/77741650300372_.pic.jpg" width="200" height="100" alt="tiktok"/><br/>
 
  </div>
 
