@@ -24,7 +24,7 @@ Digital circuit diagramming
  
 ![image](https://user-images.githubusercontent.com/93221038/163683842-c38218f7-503a-4cfa-b670-8b1953345c86.png)
 
-
+##
 
 <p align="center">
 Chip pinout diagram
@@ -32,7 +32,7 @@ Chip pinout diagram
  
 ![image](https://user-images.githubusercontent.com/93221038/163683766-bf6e5b4c-201b-4f43-98e7-d4c6168ecf35.png). 
 
-
+##
 
 <p align="center">
 PCB board drawing
