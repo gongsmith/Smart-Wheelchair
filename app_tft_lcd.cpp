@@ -24,7 +24,7 @@
 /* Private macro -------------------------------------------------------------*/
 
 /* Private variables ---------------------------------------------------------*/
-/* 0,portrait mode£»1,landscape mode£»2,180¡ãportrait mode£»3,180¡ãlandscape mode*/
+/* 0,portrait modeï¼›1,landscape modeï¼›2,180Â°portrait modeï¼›3,180Â°landscape mode*/
 #define DISP_MODE   3    /* Display mode */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -141,10 +141,10 @@ void LCD_InitHard(void)
   TFTLCD_Init();           /* Initialize LCD */
   
 #ifdef USE_ILI9341
-  LCD_Display_Dir(DISP_MODE);/* 0,portrait mode£»1,landscape mode£»2,portrait mode180¡ã£»3,landscape mode180¡ã*/
+  LCD_Display_Dir(DISP_MODE);/* 0,portrait modeï¼›1,landscape modeï¼›2,portrait mode180Â°ï¼›3,landscape mode180Â°*/
   LCD_ClrScr(RGB(0,0,0)); /* Clear screen */
 #elif defined USE_ST7789V
-  LCD_Display_Dir(DISP_MODE);/* 0,portrait mode£»1,landscape mode£»2,portrait mode180¡ã£»3,landscape mode180¡ã*/
+  LCD_Display_Dir(DISP_MODE);/* 0,portrait modeï¼›1,landscape modeï¼›2,portrait mode180Â°ï¼›3,landscape mode180Â°*/
   LCD_ClrScr(RGB(0,0,0)); /* Clear screen */
 #endif
   LCD_SetPwmBackLight(0);    /* Disable back light */
@@ -420,7 +420,7 @@ static void _LCD_ReadHZDot(uint8_t _code1, uint8_t _code2,  uint8_t _fontcode, u
       break;
   }
   
-  /* ´Ë´¦ÐèÒª¸ù¾Ý×Ö¿âÎÄ¼þ´æ·ÅÎ»ÖÃ½øÐÐÐÞ¸Ä */
+  /* æ­¤å¤„éœ€è¦æ ¹æ®å­—åº“æ–‡ä»¶å­˜æ”¾ä½ç½®è¿›è¡Œä¿®æ”¹ */
 /*
 GBK2313    Address calculation formula
   if (_code1 >=0xA1 && _code1 <= 0xA9 && _code2 >=0xA1)
@@ -579,9 +579,9 @@ GBK2313    Address calculation formula
 /*
 *********************************************************************************************************
 *  Function name: LCD_GetFontWidth
-*  Function discription: Read font width£¨pixel)
+*  Function discription: Read font widthï¼ˆpixel)
 *  Parameters: _tFont: Font structure, including color, background color (support transparency), Font code, text spacing
-*  Return: font width£¨pixel)
+*  Return: font widthï¼ˆpixel)
 *********************************************************************************************************
 */
 uint16_t LCD_GetFontWidth(FONT_T *_tFont)
@@ -616,9 +616,9 @@ uint16_t LCD_GetFontWidth(FONT_T *_tFont)
 /*
 *********************************************************************************************************
 *  Function name: LCD_GetFontHeight
-*  Function discription: Read font height£¨pixel)
+*  Function discription: Read font heightï¼ˆpixel)
 *  Parameters: _tFont: Font structure, including color, background color (support transparency), Font code, text spacing
-*  Return: font height£¨pixel)
+*  Return: font heightï¼ˆpixel)
 *********************************************************************************************************
 */
 uint16_t LCD_GetFontHeight(FONT_T *_tFont)
@@ -722,7 +722,7 @@ uint16_t LCD_GetStrWidth(const char *_ptr, FONT_T *_tFont,uint8_t *_ascii)
 /*
 *********************************************************************************************************
 *  Function name: LCD_DispStrEx
-*  Function discription: Display a string on the specified location of LCD£¨top left)
+*  Function discription: Display a string on the specified location of LCDï¼ˆtop left)
 *  Parameters:
 *    _usX   : X coordinates
 *    _usY   : Y coordinates
@@ -916,7 +916,7 @@ void LCD_DispStrEx(uint16_t _usX, uint16_t _usY, const char *_ptr, FONT_T *_tFon
 /*
 *********************************************************************************************************
 *  Function name: LCD_DispStrEx_NOmut
-*  Function discription:  Display a string on the specified location of LCD£¨top left)
+*  Function discription:  Display a string on the specified location of LCDï¼ˆtop left)
 *  Parameters:
 *    _usX   : X coordinates
 *    _usY   : Y coordinates
@@ -2504,7 +2504,7 @@ void LCD_DrawBmp16_EX_NOmut(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, ui
 *  Parameters: _usX, _usY          : display coordinates
 *            _usHeight, _usWidth : Height and width of the picture
 *            _usAddr             : The storage address of the image in flash
-*            _usMode             : Display mode ,0:disconnect 1£ºconnect
+*            _usMode             : Display mode ,0:disconnect 1ï¼šconnect
 *  Return: void
 *********************************************************************************************************
 */
@@ -2585,7 +2585,7 @@ void LCD_DrawIcon32_16_16_NOmut(uint16_t _usX, uint16_t _usY, uint16_t _usHeight
 *  Function discription: draw a 32-bit BMP map on LCD with transparent information bitmap (32-bit,RGBA)  
 *  Parameters: _usX, _usY : display coordinates
 *   _usHeight, _usWidth : Height and width of the picture
-*                 _pBmp : Image data£¨with BMP file header £©
+*                 _pBmp : Image dataï¼ˆwith BMP file header ï¼‰
 *  Return: void
 *********************************************************************************************************
 */
@@ -2708,7 +2708,7 @@ void LCD_DrawCheckBox(CHECK_T *_pCheckBox)
     font.FrontColor = CHECK_BOX_CHECKED_COLOR;  /* color of check mark*/
     font.Space = 0;
     x = _pCheckBox->Left;
-    LCD_DispStr(x + 3, _pCheckBox->Top + 3, (char *)"¡Ì", &font);
+    LCD_DispStr(x + 3, _pCheckBox->Top + 3, (char *)"âˆš", &font);
   }
 }
 
@@ -2775,7 +2775,7 @@ void LCD_DrawButton(BUTTON_T *_pBtn)
   LCD_DrawRect(_pBtn->Left + 2, _pBtn->Top + 2, _pBtn->Height - 4, _pBtn->Width - 4, BUTTON_BORDER2_COLOR);
   
   /* fill color */
-  LCD_Fill_Rect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, _pBtn->Font->BackColor);  /* Ñ¡ÖÐºóµÄµ×É« */
+  LCD_Fill_Rect(_pBtn->Left + 3, _pBtn->Top + 3, _pBtn->Height - 6, _pBtn->Width - 6, _pBtn->Font->BackColor);  /* é€‰ä¸­åŽçš„åº•è‰² */
   
   /* center horizontally */
   LCD_DispStrEx(x, y, _pBtn->pCaption, _pBtn->Font, _pBtn->Width - 6, ALIGN_CENTER);
@@ -2802,7 +2802,7 @@ void LCD_DrawGroupBox(GROUP_T *_pBox)
   /* Draw the main frame line */
   LCD_DrawRect(_pBox->Left, _pBox->Top + 4, _pBox->Height, _pBox->Width - 1, CL_BOX_BORDER1);
   
-  /*The group box title is displayed£¨Text at lefttop corner£© */
+  /*The group box title is displayedï¼ˆText at lefttop cornerï¼‰ */
   x = _pBox->Left + 9;
   y = _pBox->Top;
   LCD_DispStr(x, y, _pBox->pCaption, _pBox->Font);
@@ -3082,8 +3082,8 @@ void LCD_DrawDrop(DROP_BOX *_pDrop)
 *    Function name: LCD_DrawArc
 *    Function discription: Draw an arc
 *    Parameters:
-*            _usX,_usY  £ºCoordinates of the center of the circle
-*            _usRadius  £ºRadius of a circle 
+*            _usX,_usY  ï¼šCoordinates of the center of the circle
+*            _usRadius  ï¼šRadius of a circle 
 *            _StartAng  : Start angle
 *            _EndAng       : End angle
 *            _usColor   : Arc color
@@ -3244,16 +3244,16 @@ void LCD_DrawRoundRect(uint16_t _usX, uint16_t _usY, uint16_t _usHeight, uint16_
     _usWidth = 2 * _usRadius;
   }
   
-  LCD_DrawQuterCircle(_usX + _usRadius, _usY + _usRadius, _usRadius, _usColor, 0); /* lefttop½ÇµÄ»¡ */
+  LCD_DrawQuterCircle(_usX + _usRadius, _usY + _usRadius, _usRadius, _usColor, 0); /* lefttopè§’çš„å¼§ */
   LCD_DrawLine(_usX + _usRadius, _usY, _usX + _usWidth - _usRadius - 1, _usY, _usColor);
   
-  LCD_DrawQuterCircle(_usX + _usWidth - _usRadius - 1, _usY + _usRadius, _usRadius, _usColor, 1); /* Righttop½ÇµÄ»¡ */
+  LCD_DrawQuterCircle(_usX + _usWidth - _usRadius - 1, _usY + _usRadius, _usRadius, _usColor, 1); /* Righttopè§’çš„å¼§ */
   LCD_DrawLine(_usX + _usWidth - 1, _usY + _usRadius, _usX + _usWidth - 1, _usY + _usHeight - _usRadius - 1, _usColor);
   
-  LCD_DrawQuterCircle(_usX + _usWidth - _usRadius - 1, _usY + _usHeight - _usRadius - 1, _usRadius, _usColor, 2); /* Rightbottom½ÇµÄ»¡ */
+  LCD_DrawQuterCircle(_usX + _usWidth - _usRadius - 1, _usY + _usHeight - _usRadius - 1, _usRadius, _usColor, 2); /* Rightbottomè§’çš„å¼§ */
   LCD_DrawLine(_usX + _usRadius, _usY + _usHeight - 1, _usX + _usWidth - _usRadius - 1, _usY + _usHeight - 1, _usColor);
   
-  LCD_DrawQuterCircle(_usX + _usRadius, _usY + _usHeight - _usRadius - 1, _usRadius, _usColor, 3); /* leftbottom½ÇµÄ»¡ */
+  LCD_DrawQuterCircle(_usX + _usRadius, _usY + _usHeight - _usRadius - 1, _usRadius, _usColor, 3); /* leftbottomè§’çš„å¼§ */
   LCD_DrawLine(_usX, _usY + _usRadius, _usX, _usY + _usHeight - _usRadius - 1, _usColor);
 }
 
