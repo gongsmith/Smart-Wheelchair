@@ -403,5 +403,3 @@ void PrintfLogo(void)
   printf("* Tel   : 15815599164 \r\n");
   printf("*************************************************************\n\r");
 }
-
-/************************ (C) COPYRIGHT 2018 COUNS Team *****END OF FILE****/
