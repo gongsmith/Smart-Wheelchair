@@ -62,8 +62,9 @@ LCD display setup interface--app_machine_set.cpp
 STM32 Library Files--STM32 Library Files  
 Operating system files--Operating system files  
 
-# Credits
-* [Xun Gong](https://github.com/gongsmith)  
+# Contact us
+This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
+* [Xun Gong 2696601G](https://github.com/gongsmith)  
 * [Yuyang Wan](https://github.com/jkZoidberg)  
 * [Hanwei Liang](https://github.com/BrippoLiang)
 # Social Media
