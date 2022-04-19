@@ -1,6 +1,6 @@
 
  # Smart-Wheelchair
-<img src="https://user-images.githubusercontent.com/102697479/163986391-4b7056d7-15cf-4f72-ab32-9d9bd8f74ccc.png" >
+<img src="https://user-images.githubusercontent.com/102697479/163986715-3d916125-cd9e-42c1-909c-98c550dac91f.png" width="1000" height="400" alt="smartwheelchair"/><br/>
 
 
 # Introductions
