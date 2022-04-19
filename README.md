@@ -64,9 +64,9 @@ Operating system files--Operating system files
 
 # Authors
 This project is being completed by a team of Msc Electronics and Electrical Engineering students at the University of Glasgow.
-* [Xun Gong 2696601G](https://github.com/gongsmith)  
-* [Yuyang Wan](https://github.com/jkZoidberg)  
-* [Hanwei Liang](https://github.com/BrippoLiang)
+* [Xun Gong, 2696601G](https://github.com/gongsmith)  
+* [Yuyang Wan, 2680327W](https://github.com/jkZoidberg)  
+* [Hanwei Liang, 2669523L](https://github.com/BrippoLiang)
 # Social Media
 Welcome to follow us!
 
